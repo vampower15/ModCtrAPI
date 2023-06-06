@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProBus</name>
+    </assembly>
+    <members>
+        <member name="M:ProBus.Controllers.CustomerController.GetCustomer(System.Int32)">
+            <summary>
+            เรียกข้อมูลลูกค้าคนเดียว
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProBus.Controllers.CustomerController.GetCustomers">
+            <summary>
+            เรียกข้อมูลลูกค้ามากกว่าหนึ่งคนขึันไป
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProBus.Controllers.CustomerController.InsertCustomer(ProBus.Models.CustomerV1Model)">
+            <summary>
+            เพิ่มชุดข้อมูลลูกค้า
+            </summary>
+            <param name="customer">ชุดข้อมูลลูกค้า</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProBus.Controllers.CustomerController.EditCustomer(ProBus.Models.CustomerV1Model)">
+            <summary>
+            แก้ไขข้อมูลลูกค้า
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProBus.Controllers.CustomerController.DeleteCustomer(System.Int32)">
+            <summary>
+            ลบข้อมูลลูกค้า
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProBus.Controllers.WeatherForecastController.Get">
+            <summary>
+            test 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:ProBus.WeatherForecast.Date">
+            <summary>
+            dfdfsdfsdfsdf
+            </summary>
+        </member>
+    </members>
+</doc>
